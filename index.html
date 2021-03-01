@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper wrapper-header">
+            <div class="title">
+                <h1>Yuliya Turovskaya</h1>
+                <h2>Front-end developer</h2>
+                <h3>Minsk, Belarus</h3>
+            </div>
+            <div class="foto-container">
+                <img src="photo-Turovskaya.jpg" alt="Yuliya Turovskaya" class="foto">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="left-container">
+                <div class="left-container-wrapper">
+                    <section class="summary">
+                        <h2>Summary</h2>
+                        <p>I want to change my life, profession and constantly develop.</p>
+                    </section>
+                    <section class="education">
+                        <h2>Education, training courses</h2>
+                        <ul>
+                            <li>Belarusian National Technical University, 2012</li>
+                            <li>Course Website development using HTML, CSS and JS, IT-academy, 2018</li>
+                            <li>Course JavaScript/DOM/Interfaces for beginners, JavaScript.info, in the learning process</li>
+                        </ul>
+                    </section>
+                    <section class="code-example">
+                        <h2>Example of code</h2>
+                        <pre class="jscode">
+function towelSort (matrix) {
+    let array = [];
+
+    if(matrix === undefined){
+        return array;
+    }
+
+    for(i=0;i&lt;towel.length;i++){
+
+        if(i%2 === 0){
+
+            for(j=0; j&lt;matrix[i].length; j++){
+                array.push(matrix[i][j])
+            }
+        } else{
+
+            for(j=matrix[i].length-1; j>=0; j--){
+                array.push(matrix[i][j])
+            }
+        }
+    }
+
+    return array;
+}</pre>
+                    </section>
+                    <section class="skills">
+                        <h2>Skills</h2>
+                        <ul class="list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Git</li>
+                        </ul>
+                    </section>
+                    <section class="english-level">
+                        <h2>English level</h2>
+                        <p>B1</p>
+                    </section>
+                </div>
+
+            </div>
+            <div class="right-container">
+                <section class="contacts">
+                    <h2>Contacts</h2>
+                    <nav>
+                        <ul class="contact-list">
+                            <li>
+                                <a href="mailto:turowskaja@gmail.com" class="contact-list-link">
+                                    <img src="email-logo.jpg" alt="email" class="contacts-icon">
+
+
+                                    <p>turowskaja@gmail.com</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://telegram.me/TurovskayaYuliya" class="contact-list-link">
+                                    <img src="telegram-logo.png" alt="telegram" class="contacts-icon">
+                                    TurovskayaYuliya
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/YuliyaTurovskaya" class="contact-list-link">
+                                    <img src="github-logo.png" alt="github" class="contacts-icon">
+                                    YuliyaTurovskaya
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper footer-wrapper">
+            <div class="logo">
+                <a href="https://rs.school/js/" class="logo-link"></a>
+            </div>
+            <div>
+                <p>© 2021 The Rolling Scopes</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
