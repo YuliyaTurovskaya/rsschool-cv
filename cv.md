@@ -37,7 +37,9 @@ function towelSort (matrix) {
 ```
 
 ## Education
-
+* Belarusian National Technical University, 2012
+* Course Website development using HTML, CSS and JS, IT-academy, 2018
+* Course JavaScript/DOM/Interfaces for beginners, JavaScript.info, in the learning process
 
 ## English
     B1
