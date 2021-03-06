@@ -53,16 +53,16 @@ li{
     padding-right: 60px;
 }
 
-
-
 .summary-text{
     text-align: justify;
 }
 
 .jscode{
+    width: 100%;
     background-color:#fafafa;
     text-align: left;
     line-height: 12px;
+    font-size: ;
 }
 .right-container{
     width: 30%;
