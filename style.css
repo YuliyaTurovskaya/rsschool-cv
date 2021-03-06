@@ -12,10 +12,10 @@ li{
     list-style-type: none;
     text-align: left;
 }
-.wrapper{
-    width: 1000px;
-    display: flex;
 
+.wrapper{
+    width: 75%;
+    display: flex;
     justify-content: space-between;
     margin: 0 auto;
     line-height: 25px;
@@ -26,62 +26,50 @@ li{
 }
 
 .title{
-    width: 350px;
-    /* font-family: Montserrat; */
+    width: 70%;
     font-style: normal;
     font-weight: 800;
-    /* font-size: 32px; */
     align-self: center;
-
-
 }
 
 .foto-container {
+    width: 30%;
     border-left: #1C1C1C solid 1px;
 }
 
-.left-container{
-    width: 680px;
-    border-right: #1C1C1C solid 1px;
-    box-sizing: border-box;
-}
-.right-container{
-    width: 300px;
-
-}
-
 .foto{
-    width: 300px;
+    width: 93.33%;
     border-radius: 100%;
     padding: 10px;
 }
-/* Skills section */
-.list{
 
+.left-container{
+    width: 70%;
+    border-right: #1C1C1C solid 1px;
+    box-sizing: border-box;
 }
 
-/* Code example section */
+.left-container-wrapper{
+    padding-right: 60px;
+}
+
+
+
+.summary-text{
+    text-align: justify;
+}
+
 .jscode{
     background-color:#fafafa;
-    /* margin-top: 0px; */
-    /* display: inline-block; */
     text-align: left;
     line-height: 12px;
 }
-
-.footer-wrapper{
-    height: 100px;
-    border-top: #1C1C1C solid 1px;
-    align-items: center;
-
+.right-container{
+    width: 30%;
 }
 
-.logo-link{
-    display: block;
-    width: 100px;
-    height: 50px;
-    background: url(rs_school_js.svg) center no-repeat;
-    background-size: contain;
+.contacts{
+    padding-left: 10px;
 }
 
 .contacts-icon{
@@ -89,14 +77,15 @@ li{
     border-radius: 100%;
 }
 
-.contact-list{
+.contacts-list{
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
     gap: 15px;
     align-content: center;
 }
 
-.contact-list-link{
+.contacts-list-link{
     text-decoration: none;
     display: inline-flex;
     align-items: center;
@@ -105,6 +94,16 @@ li{
     color: #1C1C1C;
 }
 
-.left-container-wrapper{
-    padding-right: 60px;
+.footer-wrapper{
+    height: 100px;
+    border-top: #1C1C1C solid 1px;
+    align-items: center;
+}
+
+.logo-link{
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: url(rs_school_js.svg) center no-repeat;
+    background-size: contain;
 }
